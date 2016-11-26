@@ -22,3 +22,13 @@ function checkNumber(){
         alert("sb");
     }
 }
+
+function writerdoc(){
+    document.write("haha");
+}
+
+function drawsome(){
+
+
+
+}
