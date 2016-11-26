@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test1</title>
+</head>
+<script>
+    function displayDate(){
+        document.getElementById("demo").innerHTML=Date();
+    }
+    function writersome() {
+        for(var i=0;i<10;i++){
+            document.write("haha + i");
+        }
+    }
+    function changedoc(){
+        x=document.getElementById('demo2');
+        x.innerHTML="javascript";
+    }
+</script>
+<body>
+    <h1>现在是：</h1>
+    <p id="demo" >wo_wo</p>
+    <p id="demo2">改变我</p>
+    <button type="button" onclick="writersome()">显示</button>
+    <button type="button" onclick="alert('welcome')">click here</button>
+    <button type="button" onclick="changedoc()">change me</button>
+</body>
+</html>
