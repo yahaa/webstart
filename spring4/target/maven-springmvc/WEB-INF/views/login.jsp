@@ -1,0 +1,34 @@
+<%@ taglib prefix="st" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: zihua
+  Date: 16-12-7
+  Time: 下午11:17
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>PVN</title>
+</head>
+<body>
+    <p>欢迎来到上海大学光伏中心</p>
+    <form:form method="POST" action="check">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" name="user"/></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input tyep="password" name="pass"/></td>
+            </tr>
+            <tr >
+                <td colspan="2"><input type="submit" value="登录" name="login"/></td>
+            </tr>
+        </table>
+
+    </form:form>
+</body>
+</html>
