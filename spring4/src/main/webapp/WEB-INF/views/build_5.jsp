@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>PVN</title>
+    <link rel="shortcut icon" href="/image/Sniper-Elite-2.ico"/>
 </head>
 <body>
 <p>第五步 ：组件布局</p>

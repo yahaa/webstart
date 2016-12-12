@@ -11,24 +11,30 @@
 <html>
 <head>
     <title>PVN</title>
+    <link rel="shortcut icon" href="/image/Sniper-Elite-2.ico"/>
 </head>
 <body>
-    <p>欢迎来到上海大学光伏中心</p>
+    <p>光伏中心</p>
+
     <form:form method="POST" action="check">
         <table>
             <tr>
                 <td>用户名：</td>
-                <td><input type="text" name="user"/></td>
+                <td><input type="text" name="name"/></td>
             </tr>
             <tr>
                 <td>密码：</td>
-                <td><input tyep="password" name="pass"/></td>
+                <td><input tyep="text" name="password"/></td>
             </tr>
             <tr >
-                <td colspan="2"><input type="submit" value="登录" name="login"/></td>
+                <td><input type="submit" value="登录"/></td>
+                <td><button type="button" onclick="location.href='register'">注册</button></td>
             </tr>
         </table>
 
     </form:form>
+    <p>${message}</p>
+
+
 </body>
 </html>

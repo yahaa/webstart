@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>PVN</title>
+    <link rel="shortcut icon" href="/image/Sniper-Elite-2.ico"/>
 </head>
 <body>
 <p>第八步 ：效率分析</p>

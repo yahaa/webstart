@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>PVN</title>
+    <link rel="shortcut icon" href="/image/Sniper-Elite-2.ico"/>
 </head>
 <body>
 <p>第二步 ：处理地理气象</p>

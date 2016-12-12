@@ -10,6 +10,8 @@
 <html>
 <head>
     <title>PVN</title>
+    <link rel="shortcut icon" href="/image/Sniper-Elite-2.ico"/>
+
 </head>
 <body>
     <p>第一步 ：基本信息</p>

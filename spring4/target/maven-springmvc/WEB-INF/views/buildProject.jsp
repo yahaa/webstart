@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>PVN</title>
+    <link rel="shortcut icon" href="/image/Sniper-Elite-2.ico"/>
 </head>
 <body>
     <p>欢迎来到上海大学光伏服务平台</p>
